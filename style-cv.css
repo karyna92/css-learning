@@ -1,0 +1,41 @@
+
+div {
+    display: inline-block;
+    box-sizing: border-box;
+    
+}
+
+
+img { 
+   width: 200px;
+   height: 200px;
+   border-radius: 50%;
+   border: 2px solid black;
+   object-fit: cover;
+   object-position: 1px;
+
+}
+.wraper { 
+   width: 750px;
+   height: 750px;
+   border: grey 1px solid;
+   display: block;
+   margin: 0 auto;
+   padding: 30px;
+   }
+.child1 { 
+   width: 27%;
+   height: 27%;
+   border: red 1px solid;
+   display: inherit;
+   margin: 50px 30px;
+}
+.child2 { 
+   width: 38%;
+   height: 57%;
+   border: green 1px solid;
+   display: inherit;
+   margin: 50px 30px;
+   padding: 26px;
+
+}

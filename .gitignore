@@ -1,0 +1,7 @@
+
+#ignore all included files
+*.log
+*.tmp
+.*
+# ignore all included files exept .gitignore
+!.gitignore
