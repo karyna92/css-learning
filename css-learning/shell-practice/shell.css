@@ -1,0 +1,79 @@
+* { 
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+header { 
+    height: 900px;
+
+    background-color: burlywood;
+    background-image: url(assets/ракушка.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: -70%;
+
+    text-align: center;
+    color: #926239;
+    padding: 15%
+    
+}
+h1 { 
+    font-size: 45px;
+    font-weight: 700;
+    margin: 10px;
+}
+.sub-heading { 
+    font-size: 19px;
+    margin: 10px;
+}
+   button { 
+    background-color: transparent;
+    color: #926239;
+    display: inline-block;
+
+    font-size: 18px;
+    text-align: center;
+    padding: 13px 18px;
+    margin:10px;
+
+    border-radius: 11px;
+    border: 1.5px solid;
+    border-color: #926239;
+    border-bottom: 2px solid;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+   }
+   button:hover {
+     background-color: #926239;
+     color: white;
+   }
+.text1{ 
+    background-color: #926239;
+    color: white;
+    padding: 23px;
+    text-align: center;
+    margin: 15x;
+}
+.text2 {
+     color: #926239;
+     padding: 23px;
+     text-align: center;
+     margin: 15px;
+}
+
+
+.block {
+     display: inline-block;
+     width: 33.1%;
+     padding: 20px;
+     text-align: center;
+     box-sizing: border-box;
+}
+
+.brown { 
+    background-color:#926239;
+    color: white;
+      }
+.white { 
+    color: #926239;
+}      
