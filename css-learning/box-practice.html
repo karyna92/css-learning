@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <style>
+    nav { 
+        width: 100%;
+        background-color:  rgb(228, 104, 59);
+    }
+    ul, li { 
+        list-style: none;
+    }
+    
+    .nav-list { 
+        font-size: 0px;
+    }
+    .nav-list-item { 
+        display: inline-block;
+        background-color: rgb(228, 104, 59);
+        font-size: 20px;
+        padding: 35px;
+        position: relative;
+        }
+    
+    .sub-nav-list { 
+        position: absolute;
+        box-sizing: border-box;
+        top: 90px;
+        left: -18px;
+        display: none;
+    }
+    .sub-nav-list-item {  
+        position: relative; 
+        padding: 30px;
+        text-align: left;
+        width: 100px;
+        background-color:  rgb(228, 104, 59) ;
+    }
+    .link{ 
+        color:white;
+        text-decoration: none;
+    }
+    .nav-list-item:hover .sub-nav-list { 
+        display: block;
+    }
+    .sub-sub-nav-list{ 
+        position: absolute;
+        top: 0px;
+        left: 120px;
+        display: none;  
+    }
+    .sub-sub-nav-list-item  { 
+        padding: 30px;
+        background-color:  rgb(228, 104, 59) ;
+        width: 100px;
+    }
+    .sub-nav-list-item:hover .sub-sub-nav-list { 
+        display: block;
+
+    }
+    .nav-list-item:hover, .sub-nav-list-item:hover, .sub-sub-nav-list-item:hover { 
+        background-color: rgb(224, 18, 18);
+    }
+
+    
+
+    </style>
+</head>
+<body>
+   <nav>
+    <ul class="nav-list">
+        <li class="nav-list-item"> 
+            <a href="#" class="link">Home</a>
+        </li>
+        <li class="nav-list-item"> 
+            <a href="#" class="link">WorldPres+</a>
+             <ul class="sub-nav-list">
+                <li class="sub-nav-list-item"><a href="#" class="link">item1</a></li>
+                <li class="sub-nav-list-item"><a href="#" class="link">item2</a></li>
+                <li class="sub-nav-list-item"><a href="#" class="link">item3+</a>
+                <ul class="sub-sub-nav-list">
+                    <li class="sub-sub-nav-list-item"><a href="#" class="link">sub1</a></li>
+                    <li class="sub-sub-nav-list-item"><a href="#" class="link">sub2</a></li>
+                    <li class="sub-sub-nav-list-item"><a href="#" class="link">sub3</a></li>
+                </ul>
+            </li>
+             </ul>
+        </li>
+        <li class="nav-list-item"> 
+            <a href="#" class="link">Web design+</a>
+        </li>
+        <li class="nav-list-item"> 
+            <a href="#" class="link">Grafic design</a>
+        </li>
+        <li class="nav-list-item"> 
+            <a href="#" class="link">Inspiration</a>
+        </li>
+        <li class="nav-list-item"> 
+            <a href="#" class="link">Contact</a>
+        </li>
+        <li class="nav-list-item"> 
+            <a href="#" class="link">About</a>
+        </li>
+    </ul>
+   </nav>
+</body>
+</html>
